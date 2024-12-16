@@ -7,7 +7,7 @@ spec:
     kind: Service
     name: the-service
   port:
-    targetPort: 8666
+    targetPort: 8080
   tls:
     termination: edge
     insecureEdgeTerminationPolicy: Redirect
