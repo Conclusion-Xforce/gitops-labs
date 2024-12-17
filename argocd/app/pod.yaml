@@ -24,7 +24,7 @@ spec:
     livenessProbe:
       httpGet:
         path: /
-        port: http
+        port: 8081
         scheme: HTTP
       timeoutSeconds: 1
       periodSeconds: 10
